@@ -1,5 +1,5 @@
 module "infra_base" {
-  source = "git::https://github.com/<your-org-or-user>/azure-infra-base.git?ref=main"
+  source = "git::https://github.com/maverick2096/azure-master?ref=main"
 
   resource_group_name   = var.resource_group_name
   location             = var.location
